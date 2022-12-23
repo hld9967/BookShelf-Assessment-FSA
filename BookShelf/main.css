@@ -1,0 +1,24 @@
+.bookshelf
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bookElement
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    font-size: 25px;
+    border: solid black 1px;
+    padding-left: 10px;    
+}
+
+body
+{
+    margin: 5px;
+}
